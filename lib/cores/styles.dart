@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:styled_widget/styled_widget.dart';
 double heightAppBarLarge = 80;
 
@@ -71,39 +72,39 @@ abstract class AppFontStyle {
   static TextStyle medium20 = const TextStyle(fontWeight: medium, fontSize: 20, height: 28 / 20);
   static TextStyle regular20 = const TextStyle(fontWeight: regular, fontSize: 20, height: 28 / 20);
 
-  static TextStyle bold18 = const TextStyle(fontWeight: bold, fontSize: 18, height: 26 / 18);
-  static TextStyle medium18 = const TextStyle(fontWeight: medium, fontSize: 18, height: 26 / 18);
-  static TextStyle regular18 = const TextStyle(fontWeight: regular, fontSize: 18, height: 26 / 18);
+  static TextStyle bold18 = TextStyle(fontWeight: bold, fontSize: 18.sp, height: 26 / 18);
+  static TextStyle medium18 = TextStyle(fontWeight: medium, fontSize: 18.sp, height: 26 / 18);
+  static TextStyle regular18 = TextStyle(fontWeight: regular, fontSize: 18.sp, height: 26 / 18);
 
-  static TextStyle bold16 = const TextStyle(fontWeight: bold, fontSize: 16, height: 24 / 16);
-  static TextStyle medium16 = const TextStyle(fontWeight: medium, fontSize: 16, height: 24 / 16);
-  static TextStyle regular16 = const TextStyle(fontWeight: regular, fontSize: 16, height: 24 / 16);
+  static TextStyle bold16 = TextStyle(fontWeight: bold, fontSize: 16.sp, height: 24 / 16);
+  static TextStyle medium16 = TextStyle(fontWeight: medium, fontSize: 16.sp, height: 24 / 16);
+  static TextStyle regular16 = TextStyle(fontWeight: regular, fontSize: 16.sp, height: 24 / 16);
 
-  static TextStyle medium15 = const TextStyle(fontWeight: medium, fontSize: 15, height: 17.58 / 15);
+  static TextStyle medium15 = TextStyle(fontWeight: medium, fontSize: 15.sp, height: 17.58 / 15);
 
-  static TextStyle bold14 = const TextStyle(fontWeight: bold, fontSize: 14, height: 22 / 14);
-  static TextStyle medium14 = const TextStyle(fontWeight: medium, fontSize: 14, height: 22 / 14);
-  static TextStyle regular14 = const TextStyle(fontWeight: regular, fontSize: 14, height: 22 / 14);
+  static TextStyle bold14 = TextStyle(fontWeight: bold, fontSize: 14.sp, height: 22 / 14);
+  static TextStyle medium14 = TextStyle(fontWeight: medium, fontSize: 14.sp, height: 22 / 14);
+  static TextStyle regular14 = TextStyle(fontWeight: regular, fontSize: 14.sp, height: 22 / 14);
 
-  static TextStyle regular13 = const TextStyle(fontWeight: regular, fontSize: 13, height: 22 / 13);
-  static TextStyle medium13 = const TextStyle(fontWeight: medium, fontSize: 13, height: 22 / 13);
-  static TextStyle bold13 = const TextStyle(fontWeight: bold, fontSize: 13, height: 22 / 13);
+  static TextStyle regular13 = TextStyle(fontWeight: regular, fontSize: 13.sp, height: 22 / 13);
+  static TextStyle medium13 = TextStyle(fontWeight: medium, fontSize: 13.sp, height: 22 / 13);
+  static TextStyle bold13 = TextStyle(fontWeight: bold, fontSize: 13.sp, height: 22 / 13);
 
-  static TextStyle bold12 = const TextStyle(fontWeight: bold, fontSize: 12, height: 18 / 12);
-  static TextStyle medium12 = const TextStyle(fontWeight: medium, fontSize: 12, height: 18 / 12);
-  static TextStyle regular12 = const TextStyle(fontWeight: regular, fontSize: 12, height: 18 / 12);
+  static TextStyle bold12 =  TextStyle(fontWeight: bold, fontSize: 12.sp, height: 18 / 12);
+  static TextStyle medium12 = TextStyle(fontWeight: medium, fontSize: 12.sp, height: 18 / 12);
+  static TextStyle regular12 = TextStyle(fontWeight: regular, fontSize: 12.sp, height: 18 / 12);
 
-  static TextStyle bold11 = const TextStyle(fontWeight: bold, fontSize: 11.5, height: 15.4 / 11);
-  static TextStyle medium11 = const TextStyle(fontWeight: medium, fontSize: 11.5, height: 15.4 / 11);
-  static TextStyle regular11 = const TextStyle(fontWeight: regular, fontSize: 11.5, height: 15.4 / 11);
+  static TextStyle bold11 = TextStyle(fontWeight: bold, fontSize: 11.5.sp, height: 15.4 / 11);
+  static TextStyle medium11 = TextStyle(fontWeight: medium, fontSize: 11.5.sp, height: 15.4 / 11);
+  static TextStyle regular11 = TextStyle(fontWeight: regular, fontSize: 11.5.sp, height: 15.4 / 11);
 
-  static TextStyle bold10 = const TextStyle(fontWeight: bold, fontSize: 10, height: 16 / 10);
-  static TextStyle medium10 = const TextStyle(fontWeight: medium, fontSize: 10, height: 16 / 10);
-  static TextStyle regular10 = const TextStyle(fontWeight: regular, fontSize: 10, height: 16 / 10);
+  static TextStyle bold10 = TextStyle(fontWeight: bold, fontSize: 10.sp, height: 16 / 10);
+  static TextStyle medium10 = TextStyle(fontWeight: medium, fontSize: 10.sp, height: 16 / 10);
+  static TextStyle regular10 = TextStyle(fontWeight: regular, fontSize: 10.sp, height: 16 / 10);
 
-  static TextStyle bold8 = const TextStyle(fontWeight: bold, fontSize: 8, height: 14 / 8);
-  static TextStyle medium8 = const TextStyle(fontWeight: medium, fontSize: 8, height: 14 / 8);
-  static TextStyle regular8 = const TextStyle(fontWeight: regular, fontSize: 8, height: 14 / 8);
+  static TextStyle bold8 = TextStyle(fontWeight: bold, fontSize: 8.sp, height: 14 / 8);
+  static TextStyle medium8 = TextStyle(fontWeight: medium, fontSize: 8.sp, height: 14 / 8);
+  static TextStyle regular8 = TextStyle(fontWeight: regular, fontSize: 8.sp, height: 14 / 8);
 }
 
 extension TextsWidget on Text {
